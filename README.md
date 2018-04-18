@@ -1,7 +1,9 @@
 iTerm Scripts
 =============
 
-iTerm Applescripting automation is fun.
+🍏 iTerm
+[Applescripting](https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html) 
+automation is fun.
 
 
 ## Compiling Applescript
