@@ -17,7 +17,7 @@ If you insist on using your own editor, compile via `osacompile -o filename.scpt
 
 ## Script Libraries
 
-To create importable _libraries_, put them in a: `~/Library/Script Libraries/`.
+To create importable _libraries_, put them in: `~/Library/Script Libraries/`
 
 * You may have to create that folder
 * These files _must_ be compiled `.scpt` format
