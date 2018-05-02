@@ -2,7 +2,7 @@ iTerm Scripts
 =============
 
 🍏 iTerm
-[Applescripting](https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html) 
+[Applescripting](https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html)
 automation is fun.
 
 
@@ -30,3 +30,15 @@ Put `.scpt` scripts in: `~/Library/Application Support/iTerm2/Scripts/`
 When you restart iTerm2 you should now see a *Scripts* menu option.
 
 Go nuts!
+
+## Bash Aliases
+
+Simply put something like the following into your `.bashrc` or `.zshrc`:
+
+```bash
+alias six="osascript ~/Libary/Application Support/iTerm2/Scripts/six_sessions.scpt "
+```
+
+With aliases, you can pass args to your scripts, e.g. `six 101`.
+
+See [this example script](six_sessions/six_sessions.applescript) for more info.
